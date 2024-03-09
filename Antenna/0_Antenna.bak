@@ -12,7 +12,7 @@
     (property "Datasheet" "https://www.mouser.de/datasheet/2/418/9/ENG_DS_ant_433_usp410_ds_A-3238211.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Antennen 433MHz chip antenna" (at 0 0 0)
+    (property "Description" "Antennen 433MHz chip antenna, ISM, LoRaWAN, LPWA" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC ID" "C3284335" (at 0 0 0)

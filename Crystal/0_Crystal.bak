@@ -6,7 +6,7 @@
     (property "Value" "ECS-160-10-36-CKM-TR3" (at -7.62 10.16 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "ECS1601036CKMTR3" (at -10.795 -12.7 0)
+    (property "Footprint" "0_Crystal:ECS1601036CKMTR3" (at -10.795 -12.7 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.mouser.de/datasheet/2/122/ECX_2236-2497269.pdf" (at -28.575 -19.685 0)

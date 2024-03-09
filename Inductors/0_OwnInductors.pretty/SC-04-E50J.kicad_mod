@@ -1,29 +1,145 @@
-(footprint "SC-04-E50J" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp d3f30c4c-5c12-4e6e-bcdb-89a08c242c84)
-  )
-  (fp_text value "SC-04-E50J" (at -0.1778 -18.058 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp e3f35209-26be-4b9d-bd09-0b741a65215c)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp b18bf109-3e8a-4de8-ac0a-81045ce6f899)
-  )
-  (fp_rect (start -11.75 -9.7) (end 11.75 9.7)
-    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 45b71d34-fa8c-4f74-bee2-77860ee1bde0))
-  (fp_rect (start -12.55 -10.5) (end 12.55 10.5)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Margin") (tstamp 4d94f713-97e7-4e77-9cdb-3b17bfeeb15f))
-  (pad "1" thru_hole circle (at -10 -8.25) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp b4eb8ea0-1874-47d7-880b-eb78cb13f48b))
-  (pad "2" thru_hole circle (at 10 -8.25) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 2564fc7e-84b3-47ee-ab55-d6ddffb688fc))
-  (pad "3" thru_hole circle (at 10 8.25) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp a0d18886-6a1c-4c64-97f0-52e90ec9c06a))
-  (pad "4" thru_hole circle (at -10 8.25) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 87fc2f64-31d1-4984-a4f0-72c680648362))
-  (model "C:/Users/Johannes S/Documents/KiCad/7.0/0_MyParts/Inductors/3d/SC-04-E50J.stp"
-    (offset (xyz 0 0 14.1))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "SC-04-E50J"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d3f30c4c-5c12-4e6e-bcdb-89a08c242c84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SC-04-E50J"
+		(at -0.1778 -18.058 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3f35209-26be-4b9d-bd09-0b741a65215c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3c04a80-25ea-4892-bd26-5ad94e751527")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1acdf5a3-211e-4547-bb94-9110d99fa2f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86c96642-0a50-425a-bbcb-58e51bc40cec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -11.75 -9.7)
+		(end 11.75 9.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "45b71d34-fa8c-4f74-bee2-77860ee1bde0")
+	)
+	(fp_rect
+		(start -12.55 -10.5)
+		(end 12.55 10.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Margin")
+		(uuid "4d94f713-97e7-4e77-9cdb-3b17bfeeb15f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b18bf109-3e8a-4de8-ac0a-81045ce6f899")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10 -8.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b4eb8ea0-1874-47d7-880b-eb78cb13f48b")
+	)
+	(pad "2" thru_hole circle
+		(at 10 -8.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2564fc7e-84b3-47ee-ab55-d6ddffb688fc")
+	)
+	(pad "3" thru_hole circle
+		(at 10 8.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a0d18886-6a1c-4c64-97f0-52e90ec9c06a")
+	)
+	(pad "4" thru_hole circle
+		(at -10 8.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "87fc2f64-31d1-4984-a4f0-72c680648362")
+	)
+	(model "${OWN_LIB}/Inductors/3d/SC-04-E50J.stp"
+		(offset
+			(xyz 0 0 14.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
