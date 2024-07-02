@@ -1,0 +1,321 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "150080M153000" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -7.62 20.32 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "150080M153000" (id 1) (at -7.62 -22.86 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "150080M153000:LED_150080M153000" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Wurth Elektronik" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SMD-4 Würth Elektronik" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/150080M153000/Wurth+Elektronik/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "001.001" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/150080M153000/Wurth+Elektronik/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "150080M153000" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4970610&manufacturer=Wurth Elektronik&part_name=150080M153000&search_term=None" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nRed, Green, Blue (RGB) 624nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.3V Green, 3.3V Blue 4-SMD, No Lead\n" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Wurth Elektronik" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "150080M153000_0_0"
+      (polyline
+        (pts (xy 2.54 15.24) (xy 2.54 12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 12.7) (xy 2.54 10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 10.16) (xy -2.54 12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 12.7) (xy 2.54 15.24)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 7.62) (xy 2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 5.08) (xy 2.54 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 2.54) (xy -2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 5.08) (xy 2.54 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -10.16) (xy 2.54 -12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -12.7) (xy 2.54 -15.24)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -15.24) (xy -2.54 -12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -12.7) (xy 2.54 -10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts
+          (xy 0.0 0.0)
+          (xy 0.0 -2.54)
+          (xy 2.54 -1.27)
+          (xy 0.0 0.0)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 2.032 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.048 -2.54) (xy 2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts
+          (xy 0.0 -5.08)
+          (xy 0.0 -7.62)
+          (xy 2.54 -6.35)
+          (xy 0.0 -5.08)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 2.54 -5.08) (xy 2.54 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -5.08) (xy 2.032 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.048 -7.62) (xy 2.54 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 7.62) (xy -2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 5.08) (xy -2.54 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 15.24) (xy -2.54 12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 12.7) (xy -2.54 10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -10.16) (xy -2.54 -12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -12.7) (xy -2.54 -15.24)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 16.002) (xy 0.0 14.732)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 16.002) (xy -1.27 15.494)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 15.494) (xy -0.762 16.002)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.762 16.002) (xy -1.27 16.002)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 16.764) (xy 0.762 15.494)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 16.764) (xy -0.508 16.256)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 16.256) (xy 0.0 16.764)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 16.764) (xy -0.508 16.764)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 8.382) (xy 0.0 7.112)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 8.382) (xy -1.27 7.874)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 7.874) (xy -0.762 8.382)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.762 8.382) (xy -1.27 8.382)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 9.144) (xy 0.762 7.874)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 9.144) (xy -0.508 8.636)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 8.636) (xy 0.0 9.144)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 9.144) (xy -0.508 9.144)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -9.398) (xy 0.0 -10.668)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -9.398) (xy -1.27 -9.906)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -9.906) (xy -0.762 -9.398)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.762 -9.398) (xy -1.27 -9.398)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 -8.636) (xy 0.762 -9.906)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 -8.636) (xy -0.508 -9.144)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 -9.144) (xy 0.0 -8.636)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -8.636) (xy -0.508 -8.636)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -12.7) (xy -5.08 -12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -12.7) (xy -5.08 -6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -6.35) (xy 3.81 -6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -1.27) (xy -5.08 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -1.27) (xy -5.08 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 5.08) (xy -2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 12.7) (xy -7.62 12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 12.7) (xy 5.08 12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -1.27) (xy 3.81 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -3.81) (xy 3.81 -6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -3.81) (xy 5.08 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 12.7) (xy 5.08 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 5.08) (xy 5.08 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 0.0) (xy 5.08 -12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -12.7) (xy 2.54 -12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 5.08) (xy 5.08 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 0.0) (xy 5.08 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 5.08) (xy -7.62 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -12.7) (xy -7.62 -12.7)) (stroke (width 0.254))
+      )
+      (text "R" (at -10.16 15.24 0)
+        (effects (font (size 1.778 1.778)) (justify bottom left))
+      )
+      (text "G" (at -10.16 7.62 0)
+        (effects (font (size 1.778 1.778)) (justify bottom left))
+      )
+      (text "B" (at -10.16 -10.16 0)
+        (effects (font (size 1.778 1.778)) (justify bottom left))
+      )
+      (text "+" (at 10.16 2.54 0)
+        (effects (font (size 1.778 1.778)) (justify bottom left))
+      )
+      (rectangle (start -7.62 -17.78) (end 7.62 17.78)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin passive line (at -10.16 12.7 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -12.7 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

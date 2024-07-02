@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SZSMF4L5.0AT3G
+#/18409987/799081/2.50/2/2/TVS Diode (Uni-directional)
+DEF SZSMF4L5.0AT3G D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "SZSMF4L5.0AT3G" 400 250 50 H V L BNN
+F2 "SODFL3824X140N" 400 150 50 H I L BNN
+F3 "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=4993539a-258a-401f-900a-f8327ceba4a0&filename=tvs-diode-szsmf4l-datasheet" 400 50 50 H I L BNN
+F4 "Automotive Surface Mount 400 W TVS Diode in SOD-123FL" 400 -50 50 H I L BNN "Description"
+F5 "1.4" 400 -150 50 H I L BNN "Height"
+F6 "576-SZSMF4L5.0AT3G" 400 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SZSMF4L5.0AT3G?qs=M%2FWrVUahkW9PLmtLjuupDg%3D%3D" 400 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 400 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SZSMF4L5.0AT3G" 400 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#End Library

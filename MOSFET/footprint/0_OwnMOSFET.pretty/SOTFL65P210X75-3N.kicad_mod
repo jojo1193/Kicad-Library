@@ -1,0 +1,248 @@
+(footprint "SOTFL65P210X75-3N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SSM3J132TU,LF")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b1578f1d-0e28-4422-ae5c-d285cf571cb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOTFL65P210X75-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b3c45469-5efa-445f-9776-661f55427dbf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73a536bb-4eee-447e-8f9f-7c64c7a2ffd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de8ff45a-024a-4e78-b461-5a5e3ae7376b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe6dc13c-5735-4f38-9e93-0c42535a928e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.325 -1.16)
+		(end -0.85 -1.16)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "612546e5-467f-46fb-9105-1f93d5acae66")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 0.5 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "846831db-f69e-487c-9bb0-7c3ffdc1fc29")
+	)
+	(fp_line
+		(start -0.5 1)
+		(end -0.5 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b89bcf1e-8e56-48b0-aab1-ce081aa59196")
+	)
+	(fp_line
+		(start 0.5 -1)
+		(end 0.5 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddb47909-f8bd-4299-816b-7fce46bc4964")
+	)
+	(fp_line
+		(start 0.5 1)
+		(end -0.5 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04e20746-945f-4745-9f76-016ecdd2c14d")
+	)
+	(fp_line
+		(start -1.475 -1.2)
+		(end 1.475 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1eaf6c8-f8e7-4fce-84b7-d2918b72c5f1")
+	)
+	(fp_line
+		(start -1.475 1.2)
+		(end -1.475 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "135caf3d-5c37-4e69-944b-56cf883bbde7")
+	)
+	(fp_line
+		(start 1.475 -1.2)
+		(end 1.475 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8243bcee-48c2-42ac-a211-2fbfd2a0490a")
+	)
+	(fp_line
+		(start 1.475 1.2)
+		(end -1.475 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7c38e83-162c-46ca-9f12-4bc6645c939d")
+	)
+	(fp_line
+		(start -0.85 -1)
+		(end 0.85 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4b1fd16-d09b-431f-b000-5d5dfc20c25e")
+	)
+	(fp_line
+		(start -0.85 -0.35)
+		(end -0.2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "521d12b9-c044-4354-b68f-79a5f2765de6")
+	)
+	(fp_line
+		(start -0.85 1)
+		(end -0.85 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e93ae9b8-2128-4a23-9e90-99edd5d8d738")
+	)
+	(fp_line
+		(start 0.85 -1)
+		(end 0.85 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15cdf5aa-56ec-4caa-861b-a67b0c0d6000")
+	)
+	(fp_line
+		(start 0.85 1)
+		(end -0.85 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0295fd3-1d20-42b0-ac09-b74dfffa4750")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "276fd993-9a3f-4324-b18a-ce1e2f362a3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.088 -0.65)
+		(size 0.475 0.52)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2ea68bc1-35c9-4171-bc1c-9fa92bec7da6")
+	)
+	(pad "2" smd rect
+		(at -1.088 0.65)
+		(size 0.475 0.52)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c556a055-0b5f-4070-946f-0e992e68cfdf")
+	)
+	(pad "3" smd rect
+		(at 1.088 0)
+		(size 0.475 0.52)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6aeb23db-66b9-4544-aed2-593e92744747")
+	)
+	(model "${OWN_DIR}/MOSFET/3d/SSM3J132TU,LF.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
