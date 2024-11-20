@@ -249,7 +249,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at -7.874 6.604 0)
+			(at -7.874 10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,7 +328,7 @@
 		)
 		(symbol "TPS562242DRLR_0_0"
 			(pin passive line
-				(at -12.7 2.54 0)
+				(at -12.7 6.35 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 0 0)
+				(at 12.7 6.35 180)
 				(length 5.08)
 				(name "SW"
 					(effects
@@ -364,7 +364,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -2.54 0)
+				(at -12.7 -6.35 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -382,7 +382,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 2.54 180)
+				(at 12.7 0 180)
 				(length 5.08)
 				(name "BST"
 					(effects
@@ -400,7 +400,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 0 180)
+				(at -12.7 0 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -418,7 +418,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -2.54 180)
+				(at 12.7 -6.35 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -439,7 +439,7 @@
 		(symbol "TPS562242DRLR_1_1"
 			(polyline
 				(pts
-					(xy -7.62 5.08) (xy 7.62 5.08) (xy 7.62 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08)
+					(xy -7.62 7.62) (xy 7.62 7.62) (xy 7.62 -7.62) (xy -7.62 -7.62) (xy -7.62 7.62)
 				)
 				(stroke
 					(width 0.1524)
