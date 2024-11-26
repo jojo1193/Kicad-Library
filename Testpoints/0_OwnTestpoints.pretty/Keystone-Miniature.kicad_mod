@@ -1,0 +1,131 @@
+(footprint "Keystone-Miniature"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2.54 mm")
+	(tags "Testpoint Miniature")
+	(property "Reference" "J**"
+		(at -0.392 -1.99 0)
+		(layer "F.SilkS")
+		(uuid "0b0ef970-955a-462d-9666-617dfebb5bb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Miniature"
+		(at -0.392 -1.99 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e9df1f26-e751-44e5-ac89-924919c3bb39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "562e4213-eeaa-49ee-b004-f0ee65ca8101")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d6c7ab8-a4fb-492f-8cd5-c0e25521c023")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e61e6fd-a829-4eeb-a6fc-b4055cf18308")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "345d4170-e072-44cb-b141-556fae8f0e33")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3ee72e8e-1943-40bf-a950-dba621891213")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "caf27a56-1703-47a2-879c-bca05f2ac995")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.392 -1.99 0)
+		(layer "F.Fab")
+		(uuid "ff259c2c-e9e3-40c9-b67f-6da88503222f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2cc6e08-8711-446d-959d-0dfeec68850a")
+	)
+	(model "${OWN_DIR}/Testpoints/3d/Keystone Miniature/5000.stp"
+		(offset
+			(xyz 0 0 1.52)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
