@@ -1,0 +1,120 @@
+(footprint "Keystone-Compact-PNserie-5121-Green"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "5121 Green | 3.18 mm")
+	(tags "Testpoint Green")
+	(property "Reference" "REF**"
+		(at 0.279825 -2.972945 0)
+		(layer "F.SilkS")
+		(uuid "f4938f15-ed0e-4621-b9c8-353056909ec5")
+		(effects
+			(font
+				(size 1.00122 1.00122)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TP_5121"
+		(at 1.27385 2.85396 0)
+		(layer "F.Fab")
+		(uuid "a1dad088-dc46-4c24-a3ed-f99b50f2c7ed")
+		(effects
+			(font
+				(size 1.003024 1.003024)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8d8c8ef-9f5b-498c-9757-2deaa26cc958")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2116c71c-e559-4d6c-803c-387aa0ef9996")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d576f8b-640d-43fb-8a69-217486678d9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.585 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b49b31e9-d0cb-4c6d-90f9-3979fa8ed850")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.835 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2f2f78b2-f7ce-4120-a1fe-bddbbba37d11")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.585 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "68da5e75-0fb2-45dc-b534-a887000419b2")
+	)
+	(pad "TP" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "68ca9fcc-dde8-4e5f-bad1-6aebfe656f3b")
+	)
+	(model "${OWN_DIR}/Testpoints/3d/Keystone Compact/Keystone-5121-Green.STEP"
+		(offset
+			(xyz -0.5 0.25 2.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
