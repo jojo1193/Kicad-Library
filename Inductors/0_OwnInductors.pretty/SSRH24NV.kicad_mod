@@ -1,0 +1,189 @@
+(footprint "SSRH24NV"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d29e5ec7-86e1-4e1d-b38b-c1088448ee84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SSRH24NV"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8656afc2-a63d-46da-860f-d7d9cd6cc52e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.5 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09d98485-74ae-4fee-a934-db31f0517d71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.5 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fc4e196-c535-4a6a-9bb6-8ac27f6571d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.5 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d259b27e-cbde-4e9f-ac5c-7badffc1d2f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -12.75 -10)
+		(end 12.75 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ebf35c78-0ebc-44eb-81f8-98261c4f2152")
+	)
+	(fp_rect
+		(start -13.75 -11)
+		(end 13.75 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a2735bcc-e717-4fde-b74e-e4d2b65a0427")
+	)
+	(fp_line
+		(start -6.5 4)
+		(end -6.5 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "6b7795d9-bc35-43dc-8ea3-bbf7c263ff98")
+	)
+	(fp_line
+		(start 6.5 -4)
+		(end 6.5 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "802f67ab-f68c-4404-aa91-2d289684e53c")
+	)
+	(fp_rect
+		(start -7 -1.5)
+		(end -6 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "cb34b3d3-6cab-4736-a115-4f276e285b53")
+	)
+	(fp_rect
+		(start 6 -1.5)
+		(end 7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "f99db360-e2de-469d-9ef2-64e55c523ea9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "89c3a6df-ba21-4816-8ef6-5e6dc9ad9f58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -6.5 5)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad97b970-77e2-4aca-b3ec-b9078d55371d")
+	)
+	(pad "2" thru_hole circle
+		(at 6.5 5)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f43423d-d429-4ee8-9345-da2f5a2a19ba")
+	)
+	(pad "3" thru_hole circle
+		(at 6.5 -5)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "29740a54-f035-4e74-9393-a8a8ec08e71d")
+	)
+	(pad "4" thru_hole circle
+		(at -6.5 -5)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a131de8-1f95-4e03-b7e6-b22c8d2fc61c")
+	)
+	(model "${OWN_DIR}/Inductors/3d/SSRH24NVS-35080.step"
+		(offset
+			(xyz 0 0.25 19)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

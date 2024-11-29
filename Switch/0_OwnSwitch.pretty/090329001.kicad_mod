@@ -239,12 +239,12 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 0 0)
+		(at 0 -2.54)
 		(size 1.3 1.3)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f02f285b-ecfa-47d8-88b5-f049c81e618e")
+		(uuid "2f071199-8fcb-4c6f-81ab-cd97ef66870b")
 	)
 	(pad "2" thru_hole circle
 		(at 0 2.54)
@@ -255,12 +255,12 @@
 		(uuid "3b42aca6-629c-4ddb-a3a8-62be4b66d8b9")
 	)
 	(pad "3" thru_hole circle
-		(at 0 -2.54)
+		(at 0 0)
 		(size 1.3 1.3)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2f071199-8fcb-4c6f-81ab-cd97ef66870b")
+		(uuid "f02f285b-ecfa-47d8-88b5-f049c81e618e")
 	)
 	(model "${OWN_DIR}/Switch/3d/09.03290.01.stp"
 		(offset
